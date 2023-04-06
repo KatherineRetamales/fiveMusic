@@ -8,6 +8,7 @@ import { InicioComponent } from './componentes/inicio/inicio.component';
 import { SolicitadosComponent } from './componentes/solicitados/solicitados.component';
 import { AlbumComponent } from './componentes/album/album.component';
 import { MusicComponent } from './componentes/music/music.component';
+import { NabvarComponent } from './compartidos/nabvar/nabvar.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MusicComponent } from './componentes/music/music.component';
     InicioComponent,
     SolicitadosComponent,
     AlbumComponent,
-    MusicComponent
+    MusicComponent,
+    NabvarComponent
   ],
   imports: [
     BrowserModule,

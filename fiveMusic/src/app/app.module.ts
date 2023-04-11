@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
+import { ApiSpotifyService } from '../app/servicios/api-spotify.service';
+//import { OauthInterceptor } from '@core/services/oauth-interceptor/oauth-interceptor';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FavoritosComponent } from './componentes/favoritos/favoritos.component';
@@ -22,9 +25,11 @@ import { NabvarComponent } from './compartidos/nabvar/nabvar.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
-  providers: [],
+  providers: [ApiSpotifyService,
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

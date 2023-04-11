@@ -1,14 +1,14 @@
 .body {
 
-  background: linear-gradient(to bottom right, rgb(226, 86, 86), rgb(141, 141, 214), pink, rgb(226, 86, 86));
+  background-color: black;
 
 }
 
 .container {
-  
-  margin: 20px;
   height: 150px;
-  
+  width: 300px;
+  margin-top: 40px;
+
 
 
 }
@@ -16,7 +16,8 @@
 
 hr {
 
-  border: 10px solid green;
+  border: 10px solid rgb(26, 113, 188);
+  margin-top: 30px;
 }
 
 
@@ -25,7 +26,7 @@ button {
   font-size: 20px;
   font-weight: 500;
   padding: 0.5em 1.2em;
-  background: #0da8e6;
+  background: #1f272a;
   border: 2px solid;
   border-color: #318aac;
   position: relative;
@@ -33,7 +34,7 @@ button {
   border-radius: 50px;
   width: 50px;
   height: 50px;
-
+  top: 10px;
 
 
 
@@ -41,27 +42,52 @@ button {
 
 button:hover {
   color: rgba(255, 255, 255, 1) !important;
-  box-shadow: 0 4px 16px rgb(39, 223, 217);
+  box-shadow: 0 4px 16px rgb(112, 236, 234);
   transition: all 0.2s ease;
 }
 
 button:active {
-  background-color: #5cd5d3;
+  background-color: #1a2121;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
 
 .card {
 
-  border-radius: 50px;
-  border-color: black;
-  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
- 
-  background-color: #f9f9f9;
+  border-radius: 25px;
+  border-color: 3px solid rgb(221, 236, 10);
+  box-shadow: rgba(218, 92, 92, 0.8) 0px -23px 25px 0px inset, rgba(240, 217, 217, 0.792) 0px -36px 30px 0px inset;
+  
+  background-color: #f3ecf6;
   transition: background-color 1s linear 0s;
+
+  height: 160px;
 
 }
 
-.card:hover{
-  background-color: #dcbcec;
+.card:hover {
+  background-color: #e1c1f5;
+}
+
+.card:active{
+  box-shadow: rgba(218, 92, 92, 0.8) 0px -23px 25px 0px inset, rgba(240, 217, 217, 0.792) 0px -36px 30px 0px inset;
+  
+
+}
+
+.bi-play-fill{
+  display: flex;
+  justify-content: center;
+}
+
+.distancia{
+
+margin-top: 50px;
+
+margin-bottom: 30px;
+
+}
+
+.card2{
+  width: 220px;
 }

@@ -1,0 +1,93 @@
+.body {
+
+  background-color: black;
+
+}
+
+.container {
+  height: 150px;
+  width: 300px;
+  margin-top: 40px;
+
+
+
+}
+
+
+hr {
+
+  border: 10px solid rgb(26, 113, 188);
+  margin-top: 30px;
+}
+
+
+button {
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0.5em 1.2em;
+  background: #1f272a;
+  border: 2px solid;
+  border-color: #318aac;
+  position: relative;
+  cursor: pointer;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  top: 10px;
+
+
+
+}
+
+button:hover {
+  color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0 4px 16px rgb(112, 236, 234);
+  transition: all 0.2s ease;
+}
+
+button:active {
+  background-color: #1a2121;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.card {
+
+  border-radius: 25px;
+  border-color: 3px solid rgb(221, 236, 10);
+  box-shadow: rgba(218, 92, 92, 0.8) 0px -23px 25px 0px inset, rgba(240, 217, 217, 0.792) 0px -36px 30px 0px inset;
+  
+  background-color: #f3ecf6;
+  transition: background-color 1s linear 0s;
+
+  height: 160px;
+
+}
+
+.card:hover {
+  background-color: #e1c1f5;
+}
+
+.card:active{
+  box-shadow: rgba(218, 92, 92, 0.8) 0px -23px 25px 0px inset, rgba(240, 217, 217, 0.792) 0px -36px 30px 0px inset;
+  
+
+}
+
+.bi-play-fill{
+  display: flex;
+  justify-content: center;
+}
+
+.distancia{
+
+margin-top: 50px;
+
+margin-bottom: 30px;
+
+}
+
+.card2{
+  width: 220px;
+}

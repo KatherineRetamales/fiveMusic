@@ -1,29 +1,71 @@
 .fondo {
-    background: linear-gradient(217deg,
-            rgba(255, 0, 0, 0.8),
-            rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
-        linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+    background: #000000;
+    padding-left: 22px;
 }
 
 
 .img-thumbnail {
-    background-color: wheat;
-    height: 300px;
-    width: 300px;
-
-
+    height: 220px;
+    width: 100%;
+    margin: 0px !important;
+    padding: 0px !important;
 }
 
 .img-thumbnail:hover {
-    background: black;
-    transition: background-color 2s;
+    transition: background-color 1s;
 }
 
-.titulo {
-    color: purple;
-    border-color: black;
+
+
+.card-title {
+    padding: 2px 10px;
+    border: #603470 5px solid;
+    border-bottom-right-radius: 30px;
+    background-color: #603470;
+    color: white;
+    position: relative;
+    width: 100%;
+    height: 55px;
+    margin-top: 30px;
 }
 
-.nombres {
-    color: blueviolet;
+.card {
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 320px;
+    height: 220px;
 }
+
+
+
+.espacio {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+.boton {
+    margin: auto 0px;
+    margin-top: 20px;
+    border: none;
+    background-color: white;
+    display: flex;
+    position: absolute;
+    padding: 11px;
+    right: 8px;
+
+
+}
+
+
+
+.bi-play-circle {
+    font-size: 60px;
+color: white;
+}
+
+.bi-play-circle:hover {
+    
+color: black;
+}
+

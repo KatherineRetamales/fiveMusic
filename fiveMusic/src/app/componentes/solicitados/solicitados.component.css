@@ -1,3 +1,22 @@
-.img-thumbnail{
-    width: 70px;
+
+
+.imagenuno{
+    width: 62px;
+    height: 62px;
+    
 }
+
+.colorfondo{
+    background-color: black;
+}
+
+.colorletras{
+
+    color: white;
+}
+
+.bi-heart{
+
+    color: #603470;
+}
+

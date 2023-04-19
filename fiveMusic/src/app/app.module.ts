@@ -9,6 +9,7 @@ import { SolicitadosComponent } from './componentes/solicitados/solicitados.comp
 import { AlbumComponent } from './componentes/album/album.component';
 import { MusicComponent } from './componentes/music/music.component';
 import { NabvarComponent } from './compartidos/nabvar/nabvar.component';
+import { PlayComponent } from './componentes/play/play.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NabvarComponent } from './compartidos/nabvar/nabvar.component';
     SolicitadosComponent,
     AlbumComponent,
     MusicComponent,
-    NabvarComponent
+    NabvarComponent,
+    PlayComponent
   ],
   imports: [
     BrowserModule,

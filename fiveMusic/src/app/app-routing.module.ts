@@ -5,13 +5,20 @@ import { FavoritosComponent } from './componentes/favoritos/favoritos.component'
 import { SolicitadosComponent } from './componentes/solicitados/solicitados.component';
 import { AlbumComponent } from './componentes/album/album.component';
 import { MusicComponent } from './componentes/music/music.component';
+import { PlayComponent } from './componentes/play/play.component';
+
+
 const routes: Routes = [
   { path: 'inicio', component: InicioComponent },
   { path: 'favorito', component: FavoritosComponent },
   { path: 'solicitado', component: SolicitadosComponent },
   { path: 'album', component: AlbumComponent },
   { path: 'music', component: MusicComponent },
+  { path: 'play' , component: PlayComponent},
+
+
 ];
+
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
